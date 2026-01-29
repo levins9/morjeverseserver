@@ -1,12 +1,6 @@
 {
-  "name": "morjeverse-style-guide",
-  "version": "1.0.0",
-  "description": "Local server for Morjeverse style guide",
-  "main": "server.js",
+  "type": "module",
   "scripts": {
     "start": "node server.js"
-  },
-  "keywords": ["morjeverse", "style-guide"],
-  "author": "",
-  "license": "ISC"
+  }
 }
