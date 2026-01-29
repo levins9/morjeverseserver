@@ -30,7 +30,7 @@ const server = http.createServer((req, res) => {
   // Determine the file to serve
   let filePath;
   if (req.url === '/') {
-    filePath = path.join(__dirname, 'morjeverse.html');
+    filePath = path.join(__dirname, 'index.html');
   } else {
     // Remove leading slash and serve the requested file
     filePath = path.join(__dirname, req.url);
